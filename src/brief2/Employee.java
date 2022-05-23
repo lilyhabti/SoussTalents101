@@ -9,7 +9,7 @@ public  class Employee {
            public Employee(String prenom, String nom,String date) {
                this.nom = nom;
                this.prenom = prenom;
-               this.setDate(date);
+               this.date=date;
            }
            
            public Employee() {

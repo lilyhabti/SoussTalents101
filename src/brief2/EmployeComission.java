@@ -29,6 +29,6 @@ public class EmployeComission extends Employee {
 	}
     @Override
 	public String toString() {
-		return super.toString() + "  Salaire fixe : " + super.calculerSalaire(salaire) +  " Salaire mensuel : " + calculerSalaire() + "DHS";
+		return super.toString() + "  Salaire fixe : " + super.calculerSalaire(salaire) +  "DHS;  Salaire mensuel : " + calculerSalaire() + "DHS";
 	}
 }
