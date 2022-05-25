@@ -1,6 +1,6 @@
 package brief2;
 
-public  class Employee {
+public  class Employee {// abstract redefinition des fonctions abstraites
 
 	       private String nom;
            private String prenom;
@@ -15,10 +15,7 @@ public  class Employee {
            public Employee() {
 			// TODO Auto-generated constructor stub
 		}
-         public  double calculerSalaire(double salaire) {
-			return salaire;
-		}
-           
+          
 
            public String getNom() {
                return nom;
@@ -43,6 +40,10 @@ public  class Employee {
 	       @Override
 	      public String toString() {
 			return "Nom : " + nom + "; Prenom : " + prenom + "; Date: " + date;
-	    	  
 	      }
+	      
+	      public  double calculerSalaire(double salaire) {
+				return salaire;
+			}
+	          
 }

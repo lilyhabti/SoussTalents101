@@ -25,7 +25,7 @@ public class EmployeHoraire extends Employee {
 	public double calculerSalaire() {
 		return this.heurePrestes * this.tauxHoraire;
 	}
-	
+	@Override
 	public String toString() {
 		return super.toString() + " Salaire mensuel : " + calculerSalaire() + "DHS";
 	}
